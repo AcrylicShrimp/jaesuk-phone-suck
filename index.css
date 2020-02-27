@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	background-color: #f0f4f7;
+}
+
+.center-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+.text {
+	font-family: 'Trade Winds';
+	font-size: 27px;
+	line-height: normal;
+	text-align: center;
+}
